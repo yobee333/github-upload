@@ -1,0 +1,103 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+html{
+  font-size: 100%;
+}
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  background: #1a1a1a;
+  color: darkred;
+  font-size: 1.5rem;
+  font-family: 'Anton', sans-serif;
+}
+
+h1, section > h2{
+  font-family: 'Butcherman', cursive;
+  font-weight: 400;
+ 
+  font-size: 3.2rem;
+}
+
+h1, h2{
+    text-shadow: 1px 1px 10px white;
+    text-align: center;
+  }
+
+.form-container{
+  margin: auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
+
+form h2{
+  text-shadow: none;
+}
+.hidden{
+  display: none;
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+}
+
+img{
+  width: 25vw;
+
+  border-radius: 100%;
+  box-shadow: 1px 1px 15px white;
+}
+
+
+.button{
+  width: 100px;
+  height: 30px;
+  background: darkred;
+  color: white;
+  box-shadow: 1px 1px 15px gray;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+.horoscope{
+  height: 90vh;
+  width: 100vw;
+  margin: auto;
+  text-align: center;
+}
+
+.horoscope image{
+  margin: auto;
+}
+.reset{
+  text-align: center;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

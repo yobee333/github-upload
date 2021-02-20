@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Your description goes here">
+	<meta name="keywords" content="one, two, three">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Butcherman&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
+	<title>HorrorScope</title>
+
+	<!-- external CSS link -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<header>
+		<h1>What horror fate awaits you?</h1>
+		
+	</header>
+	<form>
+		<h2>Enter your birthday to find out....</h2>
+		<section class="form-container">
+		<label for="Month">Month</label>
+		<select id="month" name="month" size="1">
+			<option value="january">January</option>
+			<option value="february">February</option>
+			<option value="march">March</option>
+			<option value="april">April</option>
+			<option value="may">May</option>
+			<option value="june">June</option>
+			<option value="july">July</option>
+			<option value="august">August</option>
+			<option value="september">September</option>
+			<option value="october">October</option>
+			<option value="november">November</option>
+			<option value="december">December</option>
+		</select>
+	
+		
+		<label for="date">Day</label>
+		<select id="date" name="date" size="1">
+			
+		
+		</select>
+	
+		<input id="submit" type="button" value="submit" class="button">
+	</section>
+	</form>
+	<section class="horoscope">
+	
+	<section id="aries" class="hidden">
+		<h2>ARIES</h2>
+		<h3>"What's in here?"</h3>
+		<p>You are the one who unleashes the demonic forces.</p>
+		<img src="images\aries.jpg" alt="man breathing fire">
+	</section>
+	
+	<section id="taurus" class="hidden">
+		<h2>TAURUS</h2>
+		<h3>"You're overreacting."</h3>
+		<p>You are the skeptic.</p>
+		<img src="images\skeptic.jpg" alt="skeptical woman">
+	</section>
+	
+	<section id="gemini" class="hidden">
+		<h2>GEMINI</h2>
+		<h3>“You have to believe me!”</h3>
+		<p>You are the creepy child.</p>
+		<img src="images\creepyKid.jpg" alt="creepy child">
+	</section>
+	
+	<section id="cancer" class="hidden">
+		<h2>cancer</h2>
+		<h3>“Hand me that axe.”</h3>
+		<p>You are the blood-spattered babysitter.</p>
+		<img src="images\cancer.jpg" alt="woman carrying child">
+	</section>
+
+	<section id="leo" class="hidden">
+		<h2>leo</h2>
+		<h3>“I got this, baby.”</h3>
+		<p>You are the doomed hero.</p>
+		<img src="images\leo.jpg" alt="man entering cave">
+	</section>
+
+	<section id="virgo" class="hidden">
+		<h2>virgo</h2>
+		<h3>“Anyone would do the same.”</h3>
+		<p>You are the heroic minimum-wage employee.</p>
+		<img src="images\virgo.jpg" alt="construction worker sitting alone">
+	</section>
+
+	<section id="libra" class="hidden">
+		<h2>libra</h2>
+		<h3>“How am I going to get the stains out of this shirt?”</h3>
+		<p>You are the final girl.</p>
+		<img src="images\lastGirl.jpg" alt="tough girl with tattoos">
+	</section>
+
+	<section id="scorpio" class="hidden">
+		<h2>scorpio</h2>
+		<h3>“I’m fine, Mother.”</h3>
+		<p>You are the possessed teenager.</p>
+		<img src="images\teenager.jpg" alt="creepy posessed teenage girl">
+	</section>
+
+	<section id="sagittarius" class="hidden">
+		<h2>sagittarius</h2>
+		<h3>“I’d have got away with it, if it weren’t for you meddling kids!”</h3>
+		<p>You are the monologuing villain.</p>
+		<img src="images\villain.jpg" alt="man with a clown mask">
+	</section>
+
+	<section id="capricorn" class="hidden">
+		<h2>capricorn</h2>
+		<h3>“I warned you not to go in there.”</h3>
+		<p>You are the senior citizen who wants nothing to do with this nonsense.</p>
+		<img src="images\oldGuy.jpg" alt="old man">
+	</section>
+
+	<section id="aquarius" class="hidden">
+		<h2>aquarius</h2>
+		<h3>“Boo!”</h3>
+		<p>You are the ghost.</p>
+		<img src="images\ghost.jpg" alt="shadow of a person in the fog">
+	</section>
+
+	<section id="pisces" class="hidden">
+		<h2>pisces</h2>
+		<h3>“I'm scared.”</h3>
+		<p>You are the touched child.</p>
+		<img src="images\child.jpg" alt="girl with big eyes">
+	</section>
+
+</section>
+	<footer>
+		<section class="reset">
+			<h2>Reset to check on your friends</h2>
+	
+			<input class="button" type="button" onclick="location.href='javascript:confirmRefresh()'" value="Reset" />
+			
+	</section>
+		<h4>Horoscopes from <a href="https://www.ranker.com/list/scary-movie-roles-by-zodiac-sign/luke-blue?ref=collections&l=2661356&collectionId=2543">Ranker</a></h4>
+		
+		<h4>Images from <a href="https://unsplash.com">Unsplash</a></h4>
+	</footer>
+
+	
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
